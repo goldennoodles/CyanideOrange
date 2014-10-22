@@ -1,0 +1,9 @@
+//This is the trigger code that i was talking about, its similar to the one before only this is better :P
+
+  void OnTriggerEnter (Collision other) {
+    
+    Destroy(other.gameObject);
+    
+    }
+    
+    
